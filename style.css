@@ -1,0 +1,68 @@
+
+body{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    background: rgb(103, 123, 142) ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 10px; */
+    padding-bottom: 10px; 
+    border-radius: 3%;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.card:hover{
+    scale: 1.02;
+    transition: 0.1s ease-in-out;
+}
+
+.card img{
+    width: 100%;
+    height: 75%;
+    /* object-fit: cover; */
+    object-position: top;
+     border-radius: 3%;
+     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+/* .card img:hover{
+    scale: 1.02;
+    transition: 0.1s ease-out;
+} */
+.card .info{
+    height: 20%;
+    width: 90%;
+    /* background: rebeccapurple; */
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+.info h1{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 25px;
+   color: black;
+   font-weight: 500;
+
+}
+
+.info p{
+    height: 50%;
+    /* background: red; */
+    font-size: 25px;
+   color: black;
+   font-weight: 400;
+
+}
